@@ -160,7 +160,6 @@ appbuilder.add_view(
 appbuilder.add_view(
     ContactModelView, "List Contacts", icon="fa-envelope", category="Contacts"
 )
-appbuilder.add_view(MyView(), "Magor", category="My View")
 appbuilder.add_view(vyrobekView, "List vyrobku", icon="fa-envelope", category="Contacts")
 appbuilder.add_view(skladView, "List zbozi na sklade", icon="fa-envelope", category="Contacts")
 appbuilder.add_separator("Contacts")
